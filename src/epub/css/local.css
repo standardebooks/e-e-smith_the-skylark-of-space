@@ -6,11 +6,10 @@ footer{
 	text-align: right;
 }
 
-.newsarticle{
-	border: 1px solid black;
-	padding: 10px;
-}
-
 [epub|type~="z3998:poem"] p > span + br{
 	display: none;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
 }

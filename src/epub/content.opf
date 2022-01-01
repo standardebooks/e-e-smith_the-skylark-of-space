@@ -63,6 +63,10 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="author">https://en.wikipedia.org/wiki/E._E._Smith</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50014271</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:contributor id="editor">Hugo Gernsback</dc:contributor>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#editor">https://en.wikipedia.org/wiki/Hugo_Gernsback</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/n82241588</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Andrée Rexroth</dc:contributor>
 		<meta property="file-as" refines="#artist">Rexroth, Andrée</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Andr%C3%A9e_Rexroth</meta>
@@ -79,8 +83,8 @@
 		<dc:contributor id="transcriber-4">The Project Gutenberg Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Project Gutenberg Online Distributed Proofreading Team, The</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">Anonymous</dc:contributor>
-		<meta property="file-as" refines="#producer-1">Anonymous</meta>
+		<dc:contributor id="producer-1">David Zitzelsberger</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Zitzelsberger, David</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
