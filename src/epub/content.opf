@@ -43,7 +43,7 @@
 		<meta id="collection-1" property="belongs-to-collection">Skylark</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
-		<dc:description id="description">We follow Dr. Seaton as he accidentally creates and refines a way to travel to other start systems while Dr. DuQuesne tries to steal all of his work.</dc:description>
+		<dc:description id="description">We follow Dr. Seaton as he accidentally creates and refines a way to travel to other star systems while Dr. DuQuesne tries to steal all of his work.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Skylark of Space&lt;/i&gt; was said to be the seminal space opera and the works of &lt;a href="https://standardebooks.org/ebooks/e-e-smith"&gt;E. E. Smith&lt;/a&gt; have consistently influenced other science fiction authors.&lt;/p&gt;
 			&lt;p&gt;&lt;abbr&gt;Dr.&lt;/abbr&gt; Seaton accidentally discovers a source of energy which could be used to travel to other star systems, but when he tries to show others it fails to work. Most of his colleagues ridicule him and he quits to refine the process. &lt;abbr&gt;Dr.&lt;/abbr&gt; DuQuesne realizes the truth and is willing to do anything to have that power.&lt;/p&gt;
