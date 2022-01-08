@@ -6,24 +6,41 @@ footer{
 	text-align: right;
 }
 
-.unadorned{
+[epub|type~="z3998:sender"] + p{
+	text-align: initial;
+}
+
+ul{
 	list-style-type: none;
 	text-align: initial;
 }
 
-[epub|type~="z3998:place"]{
-	font-variant: small-caps;
+[epub|type~="z3998:poem"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:poem"] p > span + br{
 	display: none;
 }
 
+header,
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
 
-[epub|type~="title"]{
-	font-variant: small-caps;
-	font-weight: normal;
+header p + p::before,
+header + p::before{
+	border-top: 1px solid;
+	content: "";
+	display: block;
+	height: 0;
+	margin: 1em auto;
+	width: 25%;
 }
