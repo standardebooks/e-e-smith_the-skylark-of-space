@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/e-e-smith/the-skylark-of-space</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-01-09T00:12:33Z</dc:date>
+		<meta property="dcterms:modified">2022-01-09T00:12:33Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -20,7 +20,6 @@
 		<meta property="schema:accessMode">textual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
 		<meta property="schema:accessibilityFeature">alternativeText</meta>
-		<meta property="schema:accessibilityFeature">longDescription</meta>
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
@@ -43,20 +42,19 @@
 		<meta id="collection-1" property="belongs-to-collection">Skylark</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
-		<dc:description id="description">We follow Dr. Seaton as he accidentally creates and refines a way to travel to other star systems while Dr. DuQuesne tries to steal all of his work.</dc:description>
+		<dc:description id="description">A scientist accidentally creates a way to travel to other star systems, while a rival scientist tries to steal all of his work.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Skylark of Space&lt;/i&gt; was said to be the seminal space opera and the works of &lt;a href="https://standardebooks.org/ebooks/e-e-smith"&gt;E. E. Smith&lt;/a&gt; have consistently influenced other science fiction authors.&lt;/p&gt;
-			&lt;p&gt;&lt;abbr&gt;Dr.&lt;/abbr&gt; Seaton accidentally discovers a source of energy which could be used to travel to other star systems, but when he tries to show others it fails to work. Most of his colleagues ridicule him and he quits to refine the process. &lt;abbr&gt;Dr.&lt;/abbr&gt; DuQuesne realizes the truth and is willing to do anything to have that power.&lt;/p&gt;
-			&lt;p&gt;Both scientists refine the process well enough to build a space ship and visit other planets, but who will these new civilizations side with?&lt;/p&gt;
-			&lt;p&gt;This version of &lt;i&gt;The Skylark of Space&lt;/i&gt; was originally published in three parts during 1928 in the August through October issues of &lt;i&gt;Amazing Stories&lt;/i&gt; and is known to be different from a novel of the same name and by the same author which was published later.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Skylark of Space&lt;/i&gt; is said to be the seminal space opera. &lt;abbr&gt;Dr.&lt;/abbr&gt; Seaton accidentally discovers a source of energy which could be used to travel to other star systems, but when he tries to show others, it fails to work. Most of his colleagues ridicule him, and he quits his career to focus on trying to refine the process. Meanwhile &lt;abbr&gt;Dr.&lt;/abbr&gt; DuQuesne realizes the truth, and is willing to do anything to have that power.&lt;/p&gt;
+			&lt;p&gt;Both scientists refine the process well enough to build a spaceship and visit other planets, but who will these new civilizations side with?&lt;/p&gt;
+			&lt;p&gt;This version of &lt;i&gt;The Skylark of Space&lt;/i&gt; was originally published in three parts during 1928 &lt;i&gt;Amazing Stories&lt;/i&gt;. The novelization, which was published later, differs significantly.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/20869</dc:source>
 		<dc:source>https://archive.org/details/Amazing_Stories_v03n05_1928-08_ATLPM-Urf</dc:source>
 		<dc:source>https://archive.org/details/Amazing_Stories_v03n06_1928-09</dc:source>
 		<dc:source>https://archive.org/details/Amazing_Stories_v03n07_1928-10_missing_ifc_ibc_bc</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">85891</meta>
+		<meta property="se:reading-ease.flesch">70.84</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Skylark_of_Space</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-e-smith_the-skylark-of-space</meta>
 		<dc:creator id="author">E. E. Smith</dc:creator>
@@ -93,6 +91,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">B. Timothy Keith</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Keith, B. Timothy</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://astart.ca</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
