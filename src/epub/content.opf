@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/e-e-smith/the-skylark-of-space</dc:identifier>
 		<dc:date>2022-01-09T00:12:33Z</dc:date>
@@ -43,12 +43,12 @@
 		<meta id="collection-1" property="belongs-to-collection">Skylark</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
-		<dc:description id="description">A scientist accidentally creates a way to travel to other star systems, while a rival scientist tries to steal all of his work.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A scientist accidentally creates a way to travel to other star systems, while a rival scientist tries to steal all of his work.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Skylark of Space&lt;/i&gt; is said to be the seminal space opera. &lt;abbr&gt;Dr.&lt;/abbr&gt; Seaton accidentally discovers a source of energy which could be used to travel to other star systems, but when he tries to show others, it fails to work. Most of his colleagues ridicule him, and he quits his career to focus on trying to refine the process. Meanwhile &lt;abbr&gt;Dr.&lt;/abbr&gt; DuQuesne realizes the truth, and is willing to do anything to have that power.&lt;/p&gt;
 			&lt;p&gt;Both scientists refine the process well enough to build a spaceship and visit other planets, but who will these new civilizations side with?&lt;/p&gt;
 			&lt;p&gt;This version of &lt;i&gt;The Skylark of Space&lt;/i&gt; was originally published in three parts during 1928 &lt;i&gt;Amazing Stories&lt;/i&gt;. The novelization, which was published later, differs significantly.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/20869</dc:source>
 		<dc:source>https://archive.org/details/Amazing_Stories_v03n05_1928-08_ATLPM-Urf</dc:source>
